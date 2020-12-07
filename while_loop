@@ -1,0 +1,14 @@
+class Main {
+
+}
+
+fun main(args: Array<String>) {
+    val shoppingList = mutableListOf("Lamborguini", "Penthouse", "Rolex")
+    shoppingList.add("Ferrari") // To add something to the list.
+
+    var counter = 0
+    while(counter < shoppingList.size) {
+        println(shoppingList[counter])
+        counter++
+    }
+}
