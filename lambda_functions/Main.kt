@@ -5,7 +5,7 @@ class Main {
 fun main(args: Array<String>) {
     val list = listOf("Kotlin", "is", "fun")
     val count = list.count { currentString ->
-        currentString.length == 3
+        currentString.length >= 3
     }
     println(count)
 }
